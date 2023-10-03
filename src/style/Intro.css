@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css?family=Imbue');
+@import url('https://fonts.googleapis.com/css?family=Bebas+Neue');
+
+body {
+  background-color: #ffffff;
+}
+.banner {
+  background: radial-gradient(circle, rgba(76,99,142,1) 0%, rgba(247,164,116,1) 100%);
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+ 
+}
+
+.banner .logo-link {
+  margin-left: 50px;
+  margin-right: 20px;
+}
+
+.banner .logo-link img {
+  height: 50px;
+  width: 50px;
+}
+  
+  .banner .nav-link {
+    font-family: 'Bebas Neue';
+    color: wheat;
+    font-size: 20px;
+    text-decoration: none;
+    margin-right: 20px;
+  }
+  
+  .banner .nav-link:hover {
+    text-decoration: underline overline;
+  }
+
+  .intro-page {
+    background-color: white;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .intro-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .intro-text {
+    text-align: left;
+  }
+  
+  .intro-text h1 {
+    font-family: 'Imbue', sans-serif;
+    font-weight: bold;
+    font-size: 100px;
+    color: #333;
+  }
+  
+  .intro-text p {
+    font-family: 'Georgia';
+    font-weight: bold;
+    font-size: 18px;
+    color: #555;
+    margin-bottom: 80px;
+  }
+  
+  .intro-button {
+    align-items: center;
+    padding: 10px 20px;
+    background-color:  #f7a474;
+    color:  black;
+    border: none;
+    border-radius: 5px;
+    font-family: 'Bebas Neue';
+    font-size: 20px;
+    cursor: pointer;
+    text-decoration: none; /* Remove underline */
+  }
+  .intro-button a {
+    color: black; /* Set custom link color */
+    text-decoration: none; /* Remove underline */
+  }
+  
+  .intro-image {
+    flex: 1;
+    text-align: right;
+  }
+  
+  .intro-image img {
+    width: 900px; /* Adjust the width as per your requirement */
+    height: auto;
+  }
+  /* About.css */
+
+.about-container {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.question-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 20px;
+}
+
+.question-square {
+  background-color: #DA8656;
+  border-radius: 10px;
+  padding: 20px;
+}
+
+.question-square h2 {
+  font-family: 'Bebas Neue';
+  text-align: center;
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.question-square p {
+  text-align:center;
+  font-size: 16px;
+  color: white;
+}
+.about-container h1{
+  font-size: 30px;
+  text-align: center;
+  font-family: 'Imbue';
+}
+.faq-section h2{
+margin-top: 60px;
+font-family: 'Imbue';
+}

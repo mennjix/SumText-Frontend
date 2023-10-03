@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css?family=Imbue');
+@import url('https://fonts.googleapis.com/css?family=Bebas+Neue');
+
+body {
+  background-color: white;
+}
+.banner {
+  background: radial-gradient(circle, rgba(76,99,142,1) 0%, rgba(247,164,116,1) 100%);
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+ 
+}
+
+.banner .logo-link {
+  margin-left: 50px;
+  margin-right: 20px;
+}
+
+.banner .logo-link img {
+  height: 50px;
+  width: 50px;
+}
+  
+  .banner .nav-link {
+    font-family: 'Bebas Neue';
+    color: wheat;
+    font-size: 20px;
+    text-decoration: none;
+    margin-right: 20px;
+  }
+  
+  .banner .nav-link:hover {
+    text-decoration: underline overline;
+  }
+
+
+.contact-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 40px;
+}
+
+h1 {
+  font-family:'Imbue';
+  font-size: 50px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.contact-info h2{
+  font-family: 'Imbue';
+  margin-bottom: 40px;
+}
+
+.contact-info p {
+  font-size: 20px;
+  font-family: 'Bebas Neue';
+}
+
+.contact-info {
+  margin-bottom: 40px;
+}
+
+
+h2 {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.contact-details {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+}
+
+.contact-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.contact-item i {
+  margin-right: 10px;
+}
+
+.contact-form {
+  width: 100%;
+  max-width: 500px;
+}
+
+.contact-form h2 {
+  font-family:'Imbue';
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+label {
+  font-family:'Bebas Neue';
+  font-weight: bold;
+  display: block;
+  margin-bottom: 5px;
+}
+
+input,
+textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+button[type="submit"] {
+  background-color: #4C638E;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button[type="submit"]:hover {
+  background-color: #31426A;
+}

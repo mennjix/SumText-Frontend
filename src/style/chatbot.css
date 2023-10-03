@@ -1,0 +1,175 @@
+@import url('https://fonts.googleapis.com/css?family=Imbue');
+@import url('https://fonts.googleapis.com/css?family=Bebas+Neue');
+
+body {
+  background-color: #f2f2f2;
+}
+.banner {
+    background: radial-gradient(circle, rgba(76,99,142,1) 0%, rgba(247,164,116,1) 100%);
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   
+  }
+  
+  .banner .logo-link {
+    margin-left: 50px;
+    margin-right: 20px;
+  }
+  
+  .banner .logo-link img {
+    height: 50px;
+    width: 50px;
+  }
+  
+  .banner .nav-link {
+    font-family: 'Bebas Neue';
+    color: wheat;
+    font-size: 20px;
+    text-decoration: none;
+    margin-right: 20px;
+  }
+  
+  .banner .nav-link:hover {
+    text-decoration: underline overline;
+  }
+
+.chatbot-container {
+  margin-top: 30px;
+  text-align: center;
+}
+
+.chatbot-container h2 {
+  font-family: 'Bebas Neue';
+  font-size: 60px;
+}
+
+
+.chatbot-input {
+  margin-top: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.input-row {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+
+.chatbot-input .form-control {
+  width: 800px;
+  margin-right: 10px;
+}
+
+.chatbot-input button {
+  padding: 10px 20px;
+  background-color: #f7a474;
+  color: black;
+  border: none;
+  border-radius: 5px;
+  font-family: 'Bebas Neue';
+  font-size: 16px;
+  cursor: pointer;
+  margin-left: 10px;
+}
+
+.input-row button {
+  padding: 10px 20px;
+  background-color: #f7a474;
+  color: black;
+  border: none;
+  border-radius: 5px;
+  font-family: 'Bebas Neue';
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.form-control {
+  width: 100%;
+  height: 40px;
+  background-color: lightgrey;
+  border-radius: 6px;
+  padding: 10px;
+  font-size: 16px;
+  outline: none;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.upload-file-container {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  margin-top: 30px;
+  margin-left: 20px; /* Added margin-left to position it on the left side */
+}
+
+.choose-file-btn {
+  margin-right: 100px;
+  padding: 6px 12px;
+  background-color: #f5f5f5;
+  border: 1px solid #ccc;
+  cursor: pointer;
+}
+.modal {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: wheat;
+  padding: 20px;
+  border-radius: 5px;
+  width: 400px;
+  max-width: 90%;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
+}
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.modal-content {
+  text-align: left;
+}
+
+.modal-content h2 {
+  text-align: center;
+  font-family: 'Imbue';
+  font-size: 60px;
+  margin-bottom: 10px;
+}
+
+.modal-content p {
+  margin-top: 50px;
+  margin-bottom: 20px;
+}
+
+.modal-content ul {
+  list-style-type: disc;
+  margin-left: 20px;
+}
+
+.modal-content button {
+  font-family: 'Bebas Neue';
+  margin-top: 100px;
+  margin-left: 660px;
+  padding: 10px 20px;
+  background-color: #4C638E;
+  color: black;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+}

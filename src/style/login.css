@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css?family=Imbue');
+@import url('https://fonts.googleapis.com/css?family=Bebas+Neue');
+
+body {
+  background-color: #f2f2f2;
+}
+
+.banner {
+  background: radial-gradient(circle, rgba(76,99,142,1) 0%, rgba(247,164,116,1) 100%);
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+ 
+}
+
+.banner .logo-link {
+  margin-left: 50px;
+  margin-right: 20px;
+}
+
+.banner .logo-link img {
+  height: 50px;
+  width: 50px;
+}
+  
+  .banner .nav-link {
+    font-family: 'Bebas Neue';
+    color: wheat;
+    font-size: 20px;
+    text-decoration: none;
+    margin-right: 20px;
+  }
+  
+  .banner .nav-link:hover {
+    text-decoration: underline overline;
+  }
+
+/* CSS for Login Page */
+.form {
+  flex: 0 0 70%; /* Adjust the width of the form container as needed */
+  max-width: 400px; /* Set a maximum width for the form */
+  margin: 0 auto; /* Center the form horizontally */
+}
+
+.form h1 {
+  font-family: 'Imbue';
+  text-align: center;
+  font-size: 40px;
+  margin-bottom: 20px;
+}
+
+.form label {
+  font-family: 'Bebas Neue';
+  font-size: 20px;
+  display: block;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+.form input[type="email"],
+.form input[type="password"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+
+}
+
+.form button {
+  padding: 10px 20px;
+  background-color: #f7a474;
+  color: black;
+  border: none;
+  border-radius: 5px;
+  font-family: 'Bebas Neue';
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.form button:hover {
+  background-color: #45a049;
+}
+
+.form p {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.form p a {
+  color: #4C638E;
+  text-decoration: none;
+}
+
+.form p a:hover {
+  text-decoration: underline;
+}

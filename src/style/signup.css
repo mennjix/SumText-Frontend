@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css?family=Imbue');
+@import url('https://fonts.googleapis.com/css?family=Bebas+Neue');
+
+
+body {
+  background-color: #f2f2f2;
+}
+.banner {
+  background: radial-gradient(circle, rgba(76,99,142,1) 0%, rgba(247,164,116,1) 100%);
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+ 
+}
+
+.banner .logo-link {
+  margin-left: 50px;
+  margin-right: 20px;
+}
+
+.banner .logo-link img {
+  height: 50px;
+  width: 50px;
+}
+  .banner .nav-link {
+    font-family: 'Bebas Neue';
+    color: wheat;
+    font-size: 20px;
+    text-decoration: none;
+    margin-right: 20px;
+  }
+  
+  .banner .nav-link:hover {
+    text-decoration: underline overline;
+  }
+  .signup-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+  }
+
+  .image-container {
+    flex: 0 0 50%; /* Adjust the width of the image container as needed */
+    padding-right: 20 px; /* Add some spacing between the image and the form */
+    text-align: center;
+  }
+  
+  .signup-image {
+    width: 90%;
+    max-width: 100%;
+    height: auto;
+    align-items: center;
+    border-radius: 30%;
+  }
+
+  .signup-form {
+    flex: 0 0 70%; /* Adjust the width of the form container as needed */
+    max-width: 400px; /* Set a maximum width for the form */
+    margin: 0 auto; /* Center the form horizontally */
+  }
+  
+  .signup-container h1 {
+    text-align: center;
+    font-family: 'Imbue';
+    font-size: 40px;
+    margin-bottom: 20px;
+  }
+
+  .signup-container h2 {
+    font-family: 'Bebas Neue';
+    font-size: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .signup-container form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .signup-container label {
+    font-family: 'Bebas Neue';
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .signup-container input {
+    padding: 10px;
+    margin-bottom: 15px;
+  }
+  
+  .signup-container button {
+    padding: 10px 20px;
+    background-color: #f7a474;
+    color: black;
+    border: none;
+    border-radius: 5px;
+    font-family: 'Bebas Neue';
+    font-size: 20px;
+    cursor: pointer;
+  }
+  
+  .signup-container button:hover {
+    background-color: darkgreen;
+  }
+
+  .input-short {
+    width: 120px;
+  }
+
+  .input-shorter {
+    width: 80px;
+  }
